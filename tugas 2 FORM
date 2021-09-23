@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  Nama          : Naila Khalida Fitriani
+</br>
+  NPM           : 4520210097
+</br>
+  Mata Kuliah   : Desain Web-A
+</br>
+</br>
+<style >
+    .container fieldset{
+        background-color: lime;
+        text-align: center;
+        padding : 10px;
+    }
+    .container legend{
+        text-align: center;
+        font-size: 50px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <form action="results.html" method="GET"></form>
+        <form action="contact.php" method="GET"></form>
+        <fieldset>
+            <legend>User Form</legend>
+             <form>
+              <table align="Center">
+               <tr>
+                <td>Nama :</td>
+                <td><input type="text" required=""></td>
+               </tr>
+               <tr>
+                   <td>Alamat</td>
+                   <td><input type="text" required=""></td>
+               </tr>
+               <tr>
+                <td>Password :</td>
+                <td><input type="password" required=""></td>
+               </tr>
+               <tr>
+                <td>Jenis Kelamin :</td>
+                <td>
+                 <input type="radio" name="Jenis Kelamin" required=""> Laki-Laki
+                 <input type="radio" name="Jenis Kelamin" required=""> Perempuan
+                </td>
+               </tr>
+               <tr>
+                <td>Email :</td>
+                <td><input type="email" required=""></td>
+               <tr>
+                <td>No. Telepon :</td>
+                <td>
+                 <select>
+                  <option>62</option>
+                 </select>
+                 <input type="phone" required="">
+                </td>
+                <tr><td>D.O.B :</td> <td><input type="date" size="30" name="ttl" required></td></tr>
+                <tr>
+                    <td>SELECT GAMES :</td>
+                     <td>
+                    <input type="checkbox" name="hockey" id="hockey">Hockey
+                    <input type="checkbox" name="football" id="football">Football
+                    <input type="checkbox" name="cricket" id="cricket">Cricket
+                    <input type="checkbox" name="volleyball" id="volleyball">VolleyBall
+               <tr>
+                   <td>MARITAL STATUS :</td> 
+                   <td>
+                       <input type="radio" name="gender" id="male">Married
+                       <input type="radio" name="gender" id="male">Unmarried
+                    </td>
+                </tr>
+                </table>
+                <p>
+                 <button type="reset">Reset</button>
+                 <button type="submit">Submit</button>
+                <br>    
+                </p>
+                <p>
+                <label><input type="checkbox" name="remember" value="remember" /> I accept this agrement</label>
+                 </p>
+            </fieldset>
+             </form>
+</body>
+</html>
