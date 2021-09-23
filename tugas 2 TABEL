@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naila Personal Website</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellspading="5">
+        <thead>
+            <caption><h2>Daftar Mahasiswa Teknik Informatika 2021</h2></caption>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">NPM</th>
+                <th rowspan="2">NAMA</th>
+                <th colspan="4">TUGAS</th>
+            </tr>
+            <tr>
+                <th>T1</th>
+                <th>T2</th>
+                <th>T3</th>
+                <th>Rata-rata</th>
+            </tr>
+            <tr> 
+                <td>1</td>
+                <td>4520210071</td>
+                <td>Utami Setyaningtyas</td>
+                <td>90</td>
+                <td>80</td>
+                <td>85</td>
+                <td>80</td>
+            </tr>
+            <tr> 
+                <td>2</td>
+                <td>4520210024</td>
+                <td>Shabrina Putri Ramadhani</td>
+                <td>90</td>
+                <td>80</td>
+                <td>85</td>
+                <td>80</td>
+                
+            </tr>
+            <tr> 
+                <td>3</td>
+                <td>4520210097</td>
+                <td>Naila Khalida Fitriani</td>
+                <td>90</td>
+                <td>80</td>
+                <td>85</td>
+                <td>80</td>
+            </tr>
+            <tr> 
+                <td>4</td>
+                <td>4520210074</td>
+                <td>Tasya Ilmelia Sabarwati Sianturi</td>
+                <td>90</td>
+                <td>80</td>
+                <td>85</td>
+                <td>80</td>
+            </tr>
+            <tr> 
+                <td>5</td>
+                <td>4520210023</td>
+                <td>Dea Fitra Ningrum</td>
+                <td>90</td>
+                <td>80</td>
+                <td>85</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
